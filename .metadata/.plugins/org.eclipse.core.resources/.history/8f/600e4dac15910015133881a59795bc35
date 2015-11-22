@@ -1,0 +1,5 @@
+package com.coderwurst.design_patterns;
+
+public abstract class AbstractEngine {
+
+}

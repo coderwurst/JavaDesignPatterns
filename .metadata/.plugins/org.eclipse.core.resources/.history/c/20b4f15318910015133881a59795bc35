@@ -1,0 +1,13 @@
+package com.coderwurst.design_patterns;
+
+public class Coupr extends AbstractCar {
+
+	public Coupr(Engine engine) {
+		this(engine, Vehicle.Colour.UNPAINTED);
+	}
+
+	public Coupr(Engine engine, Vehicle.Colour colour) {
+		super(engine, colour);
+	}
+
+}

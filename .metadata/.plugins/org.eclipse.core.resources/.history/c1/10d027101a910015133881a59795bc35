@@ -1,0 +1,15 @@
+package com.coderwurst.builder_patterns;
+
+import com.coderwurst.design_patterns.*;
+
+public class Simulator {
+
+	public static void main(String[] args) {
+		AbstractCar car = new Saloon(new StandardEngine(1300));
+		VehicleBuilder builder = new CarBuilder(car);
+		VehicleDirector director = new CarDirector();
+		Vehicle vehicle = director.build(builder);
+		System.out.println(vehicle);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.coderwurst.design_patterns;
+
+public abstract class AbstractVehicle implements Vehicle {
+
+	@Override
+	public Engine getEngine() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Colour getColour() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void paint(Colour colour) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

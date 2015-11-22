@@ -1,0 +1,37 @@
+package com.coderwurst.builder_patterns;
+
+public class VanBuilder extends VehicleBuilder {
+
+	private AbstractVan VanInProgress;
+	
+	public VanBuilder (AbstractVan Van) {
+		VanInProgress = Van;
+	}
+	
+	public void buildBody() {
+		System.out.println("building Van body");
+	}
+	
+	public void buildBoot() {
+		System.out.println("building Van boot");
+	}
+	
+	public void buildChassis() {
+		System.out.println("building Van chassis");
+	}
+	
+	public void buildPassengerArea() {
+		System.out.println("building Van passenger area");
+	}
+	
+	public void buildWindows() {
+		System.out.println("building Van windows");
+	}
+	
+	@Override
+	public VehicleBuilder getVehicle() {
+		// TODO Auto-generated method stub
+		return VanInProgress;
+	}
+
+}

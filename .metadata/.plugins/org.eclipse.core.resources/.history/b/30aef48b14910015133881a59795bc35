@@ -1,0 +1,9 @@
+package com.coderwurst.builder_patterns;
+
+public abstract class AbstractCar {
+	
+	String chassis;
+	String body;
+	String windows;
+
+}

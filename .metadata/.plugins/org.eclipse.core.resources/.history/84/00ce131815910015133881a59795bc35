@@ -1,0 +1,14 @@
+package com.coderwurst.builder_patterns;
+
+public class VanDirector extends VehicleDirector {
+	
+	public Vehicle buil(VehicleBuilder builder) {
+		builder.buildChassis();
+		builder.buildBody();
+		builder.buildPassengerArea();
+		builder.buildBoot();
+		builder.buildWindows();
+		return builder.getVehicle();
+	}
+
+}

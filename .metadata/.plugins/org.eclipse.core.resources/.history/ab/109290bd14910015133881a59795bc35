@@ -1,0 +1,5 @@
+package com.coderwurst.builder_patterns;
+
+public abstract class VehicleDirector {
+
+}

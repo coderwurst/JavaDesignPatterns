@@ -1,0 +1,11 @@
+package com.coderwurst.builder_patterns;
+
+public class CarBuilder extends VehicleBuilder {
+
+	@Override
+	public VehicleBuilder getVehicle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
