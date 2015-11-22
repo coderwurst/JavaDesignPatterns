@@ -1,0 +1,11 @@
+package com.coderwurst.creational_patterns;
+
+public class CarWindows implements Windows {
+
+	@Override
+	public String getWindowParts() {
+		// TODO Auto-generated method stub
+		return "Window parts for a car";
+	}
+
+}

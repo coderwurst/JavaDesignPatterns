@@ -1,0 +1,23 @@
+package com.coderwurst.creational_patterns;
+
+public class CarFactory extends AbstractVehicleFactory {
+
+	@Override
+	public Body createBody() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Chassis createChassis() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Windows createWindows() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

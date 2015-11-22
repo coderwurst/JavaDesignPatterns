@@ -1,0 +1,11 @@
+package com.coderwurst.creational_patterns;
+
+public class Van implements Body {
+
+	@Override
+	public String getBodyParts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
