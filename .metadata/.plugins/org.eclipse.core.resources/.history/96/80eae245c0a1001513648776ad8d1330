@@ -1,0 +1,44 @@
+package com.coderwurst.builder_patterns_test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CarBuilderTest {
+
+	@Test
+	public void testBuildBody() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testBuildBoot() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testBuildChassis() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testBuildPassengerArea() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testBuildWindows() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetVehicle() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCarBuilder() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -11,4 +11,6 @@
 <typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{Vehicle.java[Vehicle" modifiers="513" timestamp="1448196209000"/>
 <typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{AbstractVehicle.java[AbstractVehicle" modifiers="1025" timestamp="1448196588000"/>
 <typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{AbstractCar.java[AbstractCar" modifiers="1025" timestamp="1448196694000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.factory_method{VehicleFactory.java[VehicleFactory" modifiers="1025" timestamp="1450026199000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.builder_patterns{CarBuilder.java[CarBuilder" modifiers="1" timestamp="1448196813000"/>
 </typeInfoHistroy>

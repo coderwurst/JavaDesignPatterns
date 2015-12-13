@@ -1,5 +1,0 @@
-package com.coderwurst.design_patterns;
-
-public interface Engine {
-
-}

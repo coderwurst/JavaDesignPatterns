@@ -1,5 +1,0 @@
-package com.coderwurst.builder_patterns;
-
-public class CarDirector extends VehicleDirector {
-
-}

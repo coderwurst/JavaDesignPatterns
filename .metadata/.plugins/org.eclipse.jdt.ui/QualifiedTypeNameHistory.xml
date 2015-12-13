@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.xml.parsers.FactoryConfigurationError"/>
-<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.AbstractCar"/>
-<fullyQualifiedTypeName name="com.coderwurst.design_patterns.StandardEngine"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle.Colour"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Saloon"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.StandardEngine"/>
 </qualifiedTypeNameHistroy>
