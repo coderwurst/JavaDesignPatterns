@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.creational_patterns{Body.java[Body" modifiers="513" timestamp="1448191518000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.creational_patterns{Chassis.java[Chassis" modifiers="513" timestamp="1448191518000"/>
+<typeInfo handle="=DesignPatterns/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_20.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.awt.event(WindowListener.class[WindowListener" modifiers="1537" timestamp="1406753776000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.creational_patterns{Windows.java[Windows" modifiers="513" timestamp="1448191518000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.creational_patterns{AbstractVehicleFactory.java[AbstractVehicleFactory" modifiers="1025" timestamp="1448191518000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.builder_patterns{VehicleBuilder.java[VehicleBuilder" modifiers="1025" timestamp="1448196827000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.builder_patterns{VehicleDirector.java[VehicleDirector" modifiers="1025" timestamp="1448196801000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{AbstractEngine.java[AbstractEngine" modifiers="1025" timestamp="1448197573000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{Vehicle.java[Vehicle" modifiers="513" timestamp="1448196209000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{AbstractVehicle.java[AbstractVehicle" modifiers="1025" timestamp="1448196588000"/>
+<typeInfo handle="=DesignPatterns/src&lt;com.coderwurst.design_patterns{AbstractCar.java[AbstractCar" modifiers="1025" timestamp="1448196694000"/>
+</typeInfoHistroy>
