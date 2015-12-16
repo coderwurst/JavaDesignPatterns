@@ -1,0 +1,5 @@
+package com.coderwurst.prototype_patterns;
+
+public class VehicleManagerLazy {
+
+}

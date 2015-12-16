@@ -1,0 +1,5 @@
+package prototype_patterns;
+
+public abstract class AbstractVehicle {
+
+}

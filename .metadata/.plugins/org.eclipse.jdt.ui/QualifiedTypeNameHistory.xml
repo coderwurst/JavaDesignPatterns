@@ -6,4 +6,7 @@
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle.Colour"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.Saloon"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.StandardEngine"/>
+<fullyQualifiedTypeName name="prototype_patterns.Vehicle.Colour"/>
+<fullyQualifiedTypeName name="com.coderwurst.prototype_patterns.Vehicle.Colour"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Engine"/>
 </qualifiedTypeNameHistroy>
