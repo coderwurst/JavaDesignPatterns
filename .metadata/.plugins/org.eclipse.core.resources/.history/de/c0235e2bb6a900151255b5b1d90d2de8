@@ -1,0 +1,15 @@
+package com.coderwurst.singleton;
+
+public enum SerialNumberGenerator {
+	
+	// this is the singleton
+	INSTANCE;
+	
+	private int count = 200000000;
+	
+	// no need to worry about static members or a private constructor
+	public synchronized int getNextSerial() {
+		return ++count;
+	}
+
+}

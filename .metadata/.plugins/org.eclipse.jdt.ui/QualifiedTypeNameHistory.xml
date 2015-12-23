@@ -9,4 +9,6 @@
 <fullyQualifiedTypeName name="prototype_patterns.Vehicle.Colour"/>
 <fullyQualifiedTypeName name="com.coderwurst.prototype_patterns.Vehicle.Colour"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.Engine"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
 </qualifiedTypeNameHistroy>

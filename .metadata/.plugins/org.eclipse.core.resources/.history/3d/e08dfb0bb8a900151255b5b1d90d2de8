@@ -1,0 +1,5 @@
+package com.coderwurst.singleton;
+
+public class SerialNumberGeneratorTest {
+
+}

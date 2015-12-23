@@ -1,0 +1,27 @@
+package com.coderwurst.singleton;
+
+public class SerialNumberGeneratorTraditional {
+	
+	// static members
+	public static SerialNumberGeneratorTraditional instance;
+	
+	// will only ever create 1 instance, sync to prevent thrading issues
+	public synchronized static SerialNumberGeneratorTraditional getInstance() {
+		
+		if (instance == null) {
+			instance = new SerialNumberGeneratorTraditional();
+		}
+		return instance;
+	}
+
+	// int to represent serial numbers
+	private int count;
+	
+	// constructor set to 'private' to prevent classes calling 'new Serial...'
+	private SerialNumberGeneratorTraditional () { }		
+	
+	// serialized to prevent threading issues
+	public synchronized int getNextSerial() {
+		return ++count;
+	}
+}
