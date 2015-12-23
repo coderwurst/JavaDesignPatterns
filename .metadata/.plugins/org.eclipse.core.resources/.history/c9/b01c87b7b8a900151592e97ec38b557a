@@ -5,8 +5,6 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.coderwurst.singleton_patterns.SerialNumberGenerator;
-
 public class SerialNumberGeneratorTest {	
 	@Test
 	public void testSerialNumGeneration() {
