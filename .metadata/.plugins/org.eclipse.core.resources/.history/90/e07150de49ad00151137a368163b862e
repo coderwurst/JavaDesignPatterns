@@ -1,0 +1,31 @@
+package com.coderwurst.builder_patterns_test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import com.coderwurst.builder_patterns.VanBuilder;
+import com.coderwurst.design_patterns.AbstractVan;
+import com.coderwurst.design_patterns.Pickup;
+import com.coderwurst.design_patterns.TurboEngine;
+import com.coderwurst.design_patterns.Vehicle;
+
+public class VanDirectorTest {
+	
+	private VanDirector instance = new VanDirector();
+	private AbstractVan testVan = new Pickup(new TurboEngine(2000));
+	private VanBuilder testVanBuilder;
+	
+	@Test
+	public void testBuildVan(){
+		
+		testVanBuilder = new VanBuilder(testVan);
+		instance.build(testVanBuilder);
+		
+		Vehicle getVehicle = testVanBuilder.getVehicle();
+		
+		
+		assertEquals(getVehicle, testVan);
+	}
+
+}

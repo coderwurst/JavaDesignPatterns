@@ -9,9 +9,9 @@ import com.coderwurst.design_patterns.Vehicle;
 public class VanFactory extends VehicleFactory {
 
 	@Override
-	protected Vehicle selectVehicle(DrivingStyle style) {
+	public Vehicle selectVehicle(DrivingStyle style) {
 		if (style == DrivingStyle.ECONOMICAL || style == DrivingStyle.MIDRANGE) {
-			return new Pickup(new StandardEngine(2200));
+			return new Pickup(new StandardEngine(2000));
 		} else {
 			return new BoxVan(new TurboEngine(2200));
 		}

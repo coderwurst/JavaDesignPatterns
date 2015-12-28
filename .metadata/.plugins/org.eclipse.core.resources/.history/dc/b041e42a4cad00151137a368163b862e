@@ -1,0 +1,30 @@
+package com.coderwurst.factory_method_test;
+
+import org.junit.Test;
+
+import com.coderwurst.factory_method.VanFactory;
+import com.coderwurst.factory_method.VehicleFactory.DrivingStyle;
+
+public class VanFactoryTest {
+	
+	private VanFactory instance;
+	private DrivingStyle style;
+	
+	@Test
+	public void testEconomicalVan() {
+		style = DrivingStyle.ECONOMICAL;
+		
+		instance.selectVehicle(style);
+	}
+	
+	@Test
+	public void testMidrangeVan() {
+		
+	}
+	
+	@Test
+	public void testSportVan() {
+		
+	}
+
+}

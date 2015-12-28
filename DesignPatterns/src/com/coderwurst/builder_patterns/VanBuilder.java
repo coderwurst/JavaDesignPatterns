@@ -12,19 +12,19 @@ public class VanBuilder extends VehicleBuilder {
 	}
 	
 	public void buildBody() {
-		System.out.println("building Van body");
+		System.out.println("building van body");
 	}
 	
 	public void buildChassis() {
-		System.out.println("building Van chassis");
+		System.out.println("building van chassis");
 	}
 	
 	public void buildWindows() {
-		System.out.println("building Van windows");
+		System.out.println("building van windows");
 	}
 	
 	public void buildReinforcedStorageArea() {
-		System.out.println("building van Storage area");
+		System.out.println("building van storage area");
 	}
 	
 	@Override

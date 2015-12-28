@@ -1,0 +1,36 @@
+package com.coderwurst.builder_patterns_test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import com.coderwurst.builder_patterns.CarBuilder;
+import com.coderwurst.builder_patterns.CarDirector;
+import com.coderwurst.design_patterns.AbstractCar;
+import com.coderwurst.design_patterns.AbstractVan;
+import com.coderwurst.design_patterns.Pickup;
+import com.coderwurst.design_patterns.Saloon;
+import com.coderwurst.design_patterns.StandardEngine;
+import com.coderwurst.design_patterns.TurboEngine;
+import com.coderwurst.design_patterns.Vehicle;
+
+public class CarDirectorTest {
+	
+	private CarDirector instance = new CarDirector();
+	private AbstractCar testCar = new Saloon(new StandardEngine(1300));
+	private CarBuilder testBuilder = new CarBuilder(testCar);
+	private AbstractVan testVan = new Pickup(new TurboEngine(2000));
+	
+	@Test
+	private void testBuildCar(){
+		instance.build(testBuilder);
+		
+		Vehicle getVehicle = testBuilder.getVehicle();
+		
+		
+		assertEquals(getVehicle, testCar);
+	}
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package com.coderwurst.builder_patterns_test;
+
+import com.coderwurst.builder_patterns.*;
+import com.coderwurst.design_patterns.AbstractCar;
+import com.coderwurst.design_patterns.Saloon;
+import com.coderwurst.design_patterns.StandardEngine;
+
+public class CarDirectorTest {
+	
+	private CarDirector instance = new CarDirector();
+	private AbstractCar testCar = new Saloon(new StandardEngine(1300));
+	private CarBulder testBuilder = new CarBuilder(testCar);	
+	
+	
+
+}
