@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SuperGreenEngineTest.testGetEngines" project="DesignPatterns" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testGetEngines" classname="com.coderwurst.adapter_patterns_test.SuperGreenEngineTest" time="0.0"/>
+</testrun>
