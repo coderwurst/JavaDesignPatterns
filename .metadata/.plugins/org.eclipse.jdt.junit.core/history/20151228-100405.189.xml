@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="VanDirectorTest" project="DesignPatterns" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.coderwurst.builder_patterns_test.VanDirectorTest" time="0.0">
-    <testcase name="testBuildPickupVan" classname="com.coderwurst.builder_patterns_test.VanDirectorTest" time="0.0"/>
-    <testcase name="testBuildBoxVan" classname="com.coderwurst.builder_patterns_test.VanDirectorTest" time="0.0"/>
-  </testsuite>
-</testrun>

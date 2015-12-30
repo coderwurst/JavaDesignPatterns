@@ -1,0 +1,9 @@
+package com.coderwurst.bridge_patterns;
+
+public abstract class AbstractDriverControls {
+	
+	private Engine engine;
+	
+	public AbstractDriverControls abstractDriver
+
+}

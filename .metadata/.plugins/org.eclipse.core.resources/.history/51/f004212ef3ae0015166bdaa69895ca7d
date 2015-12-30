@@ -1,0 +1,14 @@
+package com.coderwurst.bridge_patterns;
+
+public class Simulator {
+
+	public static void main (String [] args) {
+		Engine engine = new StandardEngine(1300);
+		StandardControls controls1 = new StandardControls(engine);
+		controls1.ignitionStart();
+		controls1.accelerate();
+		controls1.brake();
+		controls1.ignitionOff();
+	}
+
+}

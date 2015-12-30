@@ -2,13 +2,24 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.xml.parsers.FactoryConfigurationError"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.AbstractCar"/>
-<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle.Colour"/>
 <fullyQualifiedTypeName name="com.coderwurst.design_patterns.Saloon"/>
-<fullyQualifiedTypeName name="com.coderwurst.design_patterns.StandardEngine"/>
 <fullyQualifiedTypeName name="prototype_patterns.Vehicle.Colour"/>
 <fullyQualifiedTypeName name="com.coderwurst.prototype_patterns.Vehicle.Colour"/>
-<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Engine"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="com.coderwurst.builder_patterns.VanBuilder"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Sport"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.BoxVan"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Pickup"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.AbstractVan"/>
+<fullyQualifiedTypeName name="com.coderwurst.factory_method.VanFactory"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Vehicle"/>
+<fullyQualifiedTypeName name="com.coderwurst.abstract_factory_patterns.CarFactory"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.AbstractEngine"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.Engine"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.StandardEngine"/>
+<fullyQualifiedTypeName name="com.coderwurst.design_patterns.TurboEngine"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
 </qualifiedTypeNameHistroy>
