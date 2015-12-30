@@ -1,0 +1,10 @@
+package com.coderwurst.composite_patterns;
+
+public class Assembly extends Item {
+
+	public Assembly(String description, int cost) {
+		super(description, cost);
+		// TODO Auto-generated constructor stub
+	}
+
+}

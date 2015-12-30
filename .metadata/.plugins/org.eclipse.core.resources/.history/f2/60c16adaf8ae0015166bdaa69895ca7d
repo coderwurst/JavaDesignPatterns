@@ -1,0 +1,19 @@
+package com.coderwurst.composite_patterns;
+
+public class Simulator {
+
+	Item nut = new Part("Nut", 5);
+	Item bolt = new Part("Bolt", 9);
+	Item washer = new Part("Washer", 3);
+	Item panel = new Part("Penel", 12);
+	
+	public static void main (String [] args) {
+		Item gizmo = new Assembly("Gizmo");
+		gizmo.addItem(nut);
+		gizmo.addItem(bolt);
+		gizmo.addItem(washer);
+		gizmo.addItem(panel);
+		
+	}
+
+}
