@@ -1,0 +1,10 @@
+package com.coderwurst.decorator_patterns;
+
+public class AlloyWheeledVehicle extends AbstractVehicleOption {
+
+	public AlloyWheeledVehicle(Vehicle vehicle) {
+		super(vehicle);
+		// TODO Auto-generated constructor stub
+	}
+
+}

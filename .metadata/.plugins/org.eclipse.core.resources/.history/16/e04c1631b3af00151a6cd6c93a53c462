@@ -1,0 +1,10 @@
+package com.coderwurst.decorator_patterns;
+
+public class SatNavVehicle extends AbstractVehicleOption {
+
+	public SatNavVehicle(Vehicle vehicle) {
+		super(vehicle);
+		// TODO Auto-generated constructor stub
+	}
+
+}

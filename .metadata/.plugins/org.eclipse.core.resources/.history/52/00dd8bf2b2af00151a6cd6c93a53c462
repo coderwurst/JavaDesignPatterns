@@ -1,0 +1,10 @@
+package com.coderwurst.decorator_patterns;
+
+public class AirConditionedVehicle extends AbstractVehicleOption {
+
+	public AirConditionedVehicle(Vehicle vehicle) {
+		super(vehicle);
+		// TODO Auto-generated constructor stub
+	}
+
+}

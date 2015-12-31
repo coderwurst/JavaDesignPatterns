@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="public Item[] getItems() { "/>
 			<item value="Car"/>
 		</list>
 		<list key="replacehistory">
