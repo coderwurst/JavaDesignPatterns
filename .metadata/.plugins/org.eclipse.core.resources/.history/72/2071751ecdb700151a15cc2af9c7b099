@@ -1,0 +1,11 @@
+package com.coderwurst.facade_patterns;
+
+public class Simulator {
+
+	private Vehicle vehicle;
+	
+	public static void main (String [] args){
+		vehicle.prepareForSale();
+	}
+
+}

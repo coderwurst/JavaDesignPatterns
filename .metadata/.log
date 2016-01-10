@@ -979,3 +979,13 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.ui 4 4 2015-12-31 11:43:21.988
 !MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.contentassist.ContentAssistHandler$4@5cd0b9d6} vs {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@313ac50e}
+!SESSION 2016-01-10 18:50:37.048 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/andrew/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/andrew/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-01-10 18:50:43.527
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

@@ -1,0 +1,14 @@
+package com.coderwurst.facade_patterns;
+
+import com.coderwurst.design_patterns.Engine;
+
+
+public class Simulator {
+	
+	public static void main (String [] args){
+		VehicleFacade vehicleFacade;
+		Coupe vehicle = new Coupe(Engine engine, Colour.BLACK);
+		vehicleFacade.prepareForSale();
+	}
+
+}

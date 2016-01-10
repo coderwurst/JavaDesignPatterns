@@ -1,0 +1,9 @@
+package com.coderwurst.facade_patterns;
+
+public class Documentation {
+
+	public Documentation() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
