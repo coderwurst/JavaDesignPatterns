@@ -1,9 +1,0 @@
-package com.coderwurst.facade_patterns;
-
-public class StandardEngine extends AbstractEngine {
-	
-	public StandardEngine (int size) {
-		super(size, false);
-	}
-
-}

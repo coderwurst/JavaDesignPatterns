@@ -1,9 +1,0 @@
-package com.coderwurst.facade_patterns;
-
-public class VehicleFacade {
-
-	public VehicleFacade() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
