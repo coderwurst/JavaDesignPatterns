@@ -1,4 +1,4 @@
-package com.coderwurst.bridge_patterns;
+package flyweight_patterns;
 
 public abstract class AbstractEngine implements Engine {
 
@@ -16,6 +16,10 @@ public abstract class AbstractEngine implements Engine {
 	
 	public boolean isTurbo() {
 		return turbo;
+	}
+	
+	public void diagnose(DiagnosticTool tool) {
+		tool.runDiagnosis(this);
 	}
 	
 	

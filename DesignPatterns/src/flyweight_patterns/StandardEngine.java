@@ -1,4 +1,4 @@
-package com.coderwurst.design_patterns;
+package flyweight_patterns;
 
 public class StandardEngine extends AbstractEngine {
 	

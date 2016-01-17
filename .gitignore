@@ -41,3 +41,4 @@ local.properties
 .springBeans
 
 .metadata/
+.recommenders/
