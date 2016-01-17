@@ -1,9 +1,0 @@
-package com.coderwurst.decorator_patterns;
-
-public abstract class AbstractVehicleOption {
-
-	public AbstractVehicleOption() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

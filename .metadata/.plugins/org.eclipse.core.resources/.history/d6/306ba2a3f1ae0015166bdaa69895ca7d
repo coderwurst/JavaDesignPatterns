@@ -1,5 +1,0 @@
-package com.coderwurst.bridge_patterns;
-
-public abstract class AbstractDriverControls {
-
-}

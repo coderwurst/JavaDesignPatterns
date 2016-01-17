@@ -1,9 +1,0 @@
-package com.coderwurst.bridge_patterns;
-
-public class SportsControls extends AbstractDriverControls {
-
-	public SportsControls(Engine engine) {
-		super(engine);
-	}
-
-}

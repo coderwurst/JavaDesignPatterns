@@ -1,9 +1,0 @@
-package com.coderwurst.builder_patterns_test;
-
-import com.coderwurst.builder_patterns.*;
-
-public class CarDirectorTest {
-	
-	
-
-}

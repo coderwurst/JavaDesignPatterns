@@ -1,9 +1,0 @@
-package com.coderwurst.composite_patterns;
-
-public abstract class Item {
-
-	public Item() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
