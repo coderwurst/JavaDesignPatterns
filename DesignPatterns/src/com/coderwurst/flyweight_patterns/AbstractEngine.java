@@ -1,4 +1,4 @@
-package flyweight_patterns;
+package com.coderwurst.flyweight_patterns;
 
 public abstract class AbstractEngine implements Engine {
 

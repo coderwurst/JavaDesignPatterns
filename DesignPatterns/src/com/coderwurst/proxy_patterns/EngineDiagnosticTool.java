@@ -1,4 +1,4 @@
-package flyweight_patterns;
+package com.coderwurst.proxy_patterns;
 
 public class EngineDiagnosticTool implements DiagnosticTool {
 
