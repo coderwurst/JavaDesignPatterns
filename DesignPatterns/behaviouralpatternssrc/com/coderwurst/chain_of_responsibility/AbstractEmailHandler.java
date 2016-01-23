@@ -1,4 +1,4 @@
-package com.coderwurst.chainofresponsibility;
+package com.coderwurst.chain_of_responsibility;
 
 public abstract class AbstractEmailHandler implements EmailHandler {
 
@@ -10,6 +10,8 @@ public abstract class AbstractEmailHandler implements EmailHandler {
 	
 	public void processHandler(String email) {
 		boolean wordFound = false;
+		
+		System.out.println("Entered: " + this.getDepartment());
 		
 		if (matchingWords().length == 0) {
 			wordFound = true;
