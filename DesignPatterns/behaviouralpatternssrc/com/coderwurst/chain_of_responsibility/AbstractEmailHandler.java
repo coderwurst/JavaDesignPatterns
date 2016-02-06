@@ -13,17 +13,19 @@ public abstract class AbstractEmailHandler implements EmailHandler {
 		
 		System.out.println("Entered: " + this.getDepartment());
 		
+		// if no words to match against then this object can handle it (someone has to handle it)
 		if (matchingWords().length == 0) {
 			wordFound = true;
 		} else {
+			// look for any matching words
 			for (String word : matchingWords()) {
-				if (email.indexOf(word) >0) {
+				if (email.indexOf(word) > 0) {
 					wordFound = true;
 					break;
 				}
 			}
 		}
-		
+		// can we handle it in this object?
 		if (wordFound) {
 			handleHere(email);
 		} else {
