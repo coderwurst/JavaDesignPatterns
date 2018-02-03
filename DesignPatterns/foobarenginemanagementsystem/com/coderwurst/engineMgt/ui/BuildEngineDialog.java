@@ -54,16 +54,16 @@ public class BuildEngineDialog extends JDialog {
 		// buttons to submit or cancel
 		JPanel buttonPanel = new JPanel(new FlowLayout());
 		
-		JButton addButton = new JButton("OK");
+		JButton okButton = new JButton("OK");
 		
-		addButton.addActionListener(new ActionListener() {
+		okButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
 				BusinessFacade.INSTANCE.addEngine((Integer)sizeCombo.getSelectedItem(), 
 						typeCombo.getSelectedItem());
 				setVisible(false);
 			}
 		});
-		buttonPanel.add(addButton);
+		buttonPanel.add(okButton);
 		
 		JButton cancelButton = new JButton("CANCEL");
 		cancelButton.addActionListener(new ActionListener() {

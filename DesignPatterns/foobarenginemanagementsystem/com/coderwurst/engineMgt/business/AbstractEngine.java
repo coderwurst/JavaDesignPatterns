@@ -18,12 +18,6 @@ public abstract class AbstractEngine implements Engine {
 		return turbo;
 	}
 	
-	
-	/*
-	 * creates following output StandardEngine (0000)
-	 * 							TurboEngine (1111)
-	 * @see java.lang.Object#toString()
-	 */
 	public String toString() {
 		return getClass().getSimpleName() + " (" + size + ")";
 	}
